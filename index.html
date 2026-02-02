@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apple Dog Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Apple Dog Project</h1>
+      <p>Interface segura e fluida para interação com DeepSeek API</p>
+    </header>
+
+    <main>
+      <div class="input-section">
+        <label for="user-prompt">Digite seu prompt:</label>
+        <textarea id="user-prompt" placeholder="Ex: Explique a teoria da relatividade..."></textarea>
+        <button id="send-btn">Enviar para DeepSeek</button>
+      </div>
+
+      <div class="response-section">
+        <h2>Resposta da API:</h2>
+        <div id="response-output" class="response-box">Aguardando resposta...</div>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2026 Apple Dog Project — Conformidade com Play Store e políticas de segurança</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
